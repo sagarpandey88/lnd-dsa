@@ -59,14 +59,34 @@ class Stack {
   }
 }
 
+class StackArray {
+  constructor() {
+    this.data = [];
+  }
+
+  push(value) {
+    this.data.push(value);
+    return this;
+  }
+
+  pop() {
+    this.data.pop();
+    return this;
+  }
+
+  peek() {
+    return this.data[this.data.length - 1];
+  }
+}
+
 export function init() {
-  const mystack = new Stack();
+  const mystack = new StackArray();
   mystack.push('Google');
   mystack.push('Discord');
   mystack.push('Udemy');
   mystack.pop();
   mystack.pop();
-  mystack.pop();
+  //mystack.pop();
 
   console.log(mystack.peek());
 
