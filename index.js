@@ -21,8 +21,9 @@
 
 // Import stylesheets
 import './style.css';
-import { init } from './DataStructures/hashtables.js';
+//import { init } from './DataStructures/hashtables.js';
 //import { init } from './DataStructures/linkedlist.js';
+import { init } from './datastructures/stacks.js';
 
 // Write Javascript code!
 const appDiv = document.getElementById('app');
