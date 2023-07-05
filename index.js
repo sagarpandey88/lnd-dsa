@@ -25,8 +25,8 @@ import './style.css';
 //import { init } from './datastructures/linkedlist.js';
 //import { init } from './datastructures/stacks.js';
 // import { init } from './datastructures/queues.js';
-//import { init } from './datastructures/binarysearchtree.js';
+import { init } from './datastructures/binarysearchtree.js';
 // Write Javascript code!
 const appDiv = document.getElementById('app');
-//init();
+init();
 appDiv.innerHTML = `<h1>Data Structure and Algorithm</h1><h2>The result of can we viewed in developer console</h2>`;

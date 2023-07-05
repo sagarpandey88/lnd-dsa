@@ -26,7 +26,7 @@ class BinarySearchTree {
       let currentNode = this.root;
 
       while (true) {
-        if (value < currentNode.value) {
+        if (value <= currentNode.value) {
           // go left
           //check if left node doesnt exist , then newnode is our left node
           if (!currentNode.left) {
@@ -61,6 +61,7 @@ export function init() {
   const bst = new BinarySearchTree();
   bst.insert(9);
   bst.insert(4);
+  bst.insert(22);
 
   const str = traverse(bst.root);
   console.log(JSON.stringify(str));
