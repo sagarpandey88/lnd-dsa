@@ -61,9 +61,6 @@ export function init() {
   const bst = new BinarySearchTree();
   bst.insert(9);
   bst.insert(4);
-  bst.insert(6);
-  bst.insert(20);
-  bst.insert(170);
 
   const str = traverse(bst.root);
   console.log(JSON.stringify(str));
