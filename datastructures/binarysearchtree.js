@@ -41,7 +41,7 @@ class BinarySearchTree {
             currentNode.right = newNode;
             return this;
           }
-          currentNode.right = newNode;
+          currentNode = currentNode.right;
         }
       }
     }
@@ -62,6 +62,11 @@ export function init() {
   bst.insert(9);
   bst.insert(4);
   bst.insert(22);
+  bst.insert(44);
+  bst.insert(33);
+
+  //visualize it with
+  //https://jsoncrack.com/editor
 
   const str = traverse(bst.root);
   console.log(JSON.stringify(str));
