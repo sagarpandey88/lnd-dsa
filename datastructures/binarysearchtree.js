@@ -1,6 +1,26 @@
 /**
  * Binary Search Tree
+ * Description:
+ * Value on the right node keeps increasing
+ * Value on the left goes on decreasing
+ * Node can have max 2 child nodes
  *
+ * lookup o log(n)
+ * insert o log (n)
+ * delete o log (n)
+ *
+ * Below are few balancing techniques
+ * AVL Trees
+ * Red black tree
+ *
+ *
+ * Binary Heaps : Majorly used in  Priority queues ,every node on top has higher value then below
+ * lookup o (n)
+ * insert o log (n)
+ * delete o log (n)
+ *
+ * Tries: Time compelexity  o (length of the word)
+ * Specialized tree with Text , probably used auto suggestion
  *
  */
 
