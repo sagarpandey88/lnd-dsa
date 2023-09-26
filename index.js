@@ -25,7 +25,8 @@ import './style.css';
 //import { init } from './datastructures/linkedlist.js';
 //import { init } from './datastructures/stacks.js';
 // import { init } from './datastructures/queues.js';
-import { init } from './datastructures/binarysearchtree.js';
+//import { init } from './datastructures/binarysearchtree.js';
+import { init } from './datastructures/graph.js';
 // Write Javascript code!
 const appDiv = document.getElementById('app');
 init();
