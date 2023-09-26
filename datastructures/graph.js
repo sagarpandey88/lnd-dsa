@@ -1,5 +1,6 @@
 /**
  *
+ *
  * Directed graph  : Twitter , if someone follows you , you dont automatically follow them
  * undirected graph: Facebook , if you friend some one you are connected to them
  *
