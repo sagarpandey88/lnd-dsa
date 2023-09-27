@@ -26,7 +26,9 @@ import './style.css';
 //import { init } from './datastructures/stacks.js';
 // import { init } from './datastructures/queues.js';
 //import { init } from './datastructures/binarysearchtree.js';
-import { init } from './datastructures/graph.js';
+//import { init } from './datastructures/graph.js';
+//import { init } from './algorithms/recurrsion/factorial.js';
+import { init } from './algorithms/recurrsion/fibonacci.js';
 // Write Javascript code!
 const appDiv = document.getElementById('app');
 init();
