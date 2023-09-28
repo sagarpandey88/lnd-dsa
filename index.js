@@ -28,7 +28,8 @@ import './style.css';
 //import { init } from './datastructures/binarysearchtree.js';
 //import { init } from './datastructures/graph.js';
 //import { init } from './algorithms/recurrsion/factorial.js';
-import { init } from './algorithms/recurrsion/fibonacci.js';
+//import { init } from './algorithms/recurrsion/fibonacci.js';
+import { init } from './algorithms/sorting/bubblesort.js';
 // Write Javascript code!
 const appDiv = document.getElementById('app');
 init();
