@@ -1,3 +1,9 @@
+/**
+ *Bubble sort:
+  Time Complexity :  o (n^2)
+   Space complexity o(1)
+ */
+
 const numbers = [99, 44, 6, 2, 1, 5, 63, 87, 283, 4, 0];
 
 function bubbleSort(array) {

@@ -27,11 +27,14 @@ import './style.css';
 // import { init } from './datastructures/queues.js';
 //import { init } from './datastructures/binarysearchtree.js';
 //import { init } from './datastructures/graph.js';
+
 //import { init } from './algorithms/recurrsion/factorial.js';
 //import { init } from './algorithms/recurrsion/fibonacci.js';
 //import { init } from './algorithms/sorting/bubblesort.js';
-import { init } from './algorithms/sorting/selectionsort.js';
-import { init } from './algorithms/sorting/insertionsort.js';
+//import { init } from './algorithms/sorting/selectionsort.js';
+//import { init } from './algorithms/sorting/insertionsort.js';
+import { init } from './algorithms/sorting/mergesort.js';
+
 // Write Javascript code!
 
 const appDiv = document.getElementById('app');

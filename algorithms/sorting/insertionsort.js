@@ -1,6 +1,8 @@
 /**
  * Insertion Sort:
  *  Most Efficient in small dataset or  Almost sorted Best case o (n)
+ *  Time Complexity :  o (n^2)   Best case o (n)
+   Space complexity o(1)
  *
  */
 
