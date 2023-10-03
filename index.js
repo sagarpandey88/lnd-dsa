@@ -31,7 +31,9 @@ import './style.css';
 //import { init } from './algorithms/recurrsion/fibonacci.js';
 //import { init } from './algorithms/sorting/bubblesort.js';
 import { init } from './algorithms/sorting/selectionsort.js';
+import { init } from './algorithms/sorting/insertionsort.js';
 // Write Javascript code!
+
 const appDiv = document.getElementById('app');
 init();
 appDiv.innerHTML = `<h1>Data Structure and Algorithm</h1><h2>The result of can we viewed in developer console</h2>`;
