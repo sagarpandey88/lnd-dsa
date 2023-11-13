@@ -34,7 +34,9 @@ import './style.css';
 //import { init } from './algorithms/sorting/selectionsort.js';
 //import { init } from './algorithms/sorting/insertionsort.js';
 //import { init } from './algorithms/sorting/mergesort.js';
-import { init } from './algorithms/sorting/quicksort.js';
+//import { init } from './algorithms/sorting/quicksort.js';
+
+import { init } from './algorithms/searching/bfs.js';
 
 // Write Javascript code!
 
