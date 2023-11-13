@@ -33,7 +33,8 @@ import './style.css';
 //import { init } from './algorithms/sorting/bubblesort.js';
 //import { init } from './algorithms/sorting/selectionsort.js';
 //import { init } from './algorithms/sorting/insertionsort.js';
-import { init } from './algorithms/sorting/mergesort.js';
+//import { init } from './algorithms/sorting/mergesort.js';
+import { init } from './algorithms/sorting/quicksort.js';
 
 // Write Javascript code!
 
