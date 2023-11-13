@@ -7,8 +7,6 @@
  *  v More Memory
  */
 
-function breadthFirstSearch() {}
-
 class Node {
   constructor(value) {
     this.left = null;
@@ -74,6 +72,24 @@ class BinarySearchTree {
 
     return list;
   }
+
+  breadthFirstSearchR(queue, list) {
+    //base case
+    if (!queue.length) {
+      return list;
+    }
+    let currentNode = queue.shift();
+    list.push(currentNode.value);
+
+    if (currentNode.left) {
+      queue.push(currentNode.left);
+    }
+    if (currentNode.right) {
+      queue.push(currentNode.right);
+    }
+
+    return this.breadthFirstSearchR(queue, list);
+  }
 }
 
 function traverse(node) {
@@ -91,6 +107,8 @@ export function init() {
   bst.insert(44);
   bst.insert(33);
   console.log(bst.breadthFirstSearch());
+  console.log(bst.breadthFirstSearchR([bst.root], []));
+
   //visualize it with
   //https://jsoncrack.com/editor
 
