@@ -36,7 +36,8 @@ import './style.css';
 //import { init } from './algorithms/sorting/mergesort.js';
 //import { init } from './algorithms/sorting/quicksort.js';
 
-import { init } from './algorithms/searching/bfs.js';
+//import { init } from './algorithms/searching/bfs.js';
+import { init } from './algorithms/searching/dfs.js';
 
 // Write Javascript code!
 
